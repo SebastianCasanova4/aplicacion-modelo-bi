@@ -48,7 +48,7 @@ function Archivo() {
     return (
         <div className="Pagina">
           <h1 id="unTitulo">Predicción calificación hotelera</h1>
-          <p>Este es un modelo de clasificación basado en regresión logistica multinomial. Este modelo permite que para una reseña se pueda dar una calificacion de 0 a 5. Esto gracias al entrenamiento previo del modelo de regresión. Primero sube un archivo CSV con :</p>
+          <p>Esta es una aplicaciíon WEB para predecir la calificación de un lugar turistico según una review. Primero debes subir un archivo CSV y no olvides darle a submit (Enviar), espera unos segundos y podrás darle a predicción.</p>
 
           <form className="formulario" onSubmit={handleSubmit}>
               <input type="file" id="file" name="file" accept=".csv" onChange={handleFileChange}></input>
